@@ -14,7 +14,7 @@
 
 
 .font-color-primari {
-    color: #FD6E0A ;
+    color: #FD6E0A;
 }
 
 
@@ -58,40 +58,49 @@ nav a {
 
 
 /* header content releted style */
-.header{
-    background-color: #FFF8F3;
-    border: 100%;
-    background-image:url('/images/header_bg.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-position: right;
-}
-.baner{
-  display: flex;
-  
-    
+.header {
+    background-color: #FFF8F3;   
+    background-image: url('/images/header_bg.png') , url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
 }
 
-.baner img{
-    height: 584px;
+.baner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;    
 }
 
-.profile-picture{
-    position: bottom left;
-    
-    
+.baner img {
+    height: 584px;    
+    padding-right: 38px;
 }
 
-.header-title-into {    
+
+
+
+
+.header-title-into {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     color: #474747);
     font-size: 45px;
     font-weight: 600;
+    
+
 }
 
-.header-title {
-    color: #181818);
-    font-size: 85px;    
+.header-title {  
     font-weight: 700;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    color: #181818);
+    font-size: 85px;
+    
+    
+    
 }
 
 .btn-contact {
@@ -100,12 +109,12 @@ nav a {
     margin-left: 30px;
 }
 
-.header-description{
-    color: #757575);
-font-size: 18px;
-font-weight: 400;
-
-
+.header-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    margin-top: 0px;
 }
 
 #contact-btn-space {
