@@ -1,21 +1,20 @@
 /* common shere style */
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
 
 .btn-praymari {
     width: 150px;
-    height: 64px;    
+    height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
-    flex-shrink: 0;
-    border: none;   
+    border: none;
 }
 
 
-.font-color-primari{
-    color: #FD6E0A;
+.font-color-primari {
+    color: #FD6E0A ;
 }
 
 
@@ -26,32 +25,91 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 
-nav>ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
 
-nav h3{
+nav h3 {
     color: #181818;
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 }
 
 
-nav ul{
+nav ul {
     list-style: none;
 }
 
 
-nav li{
+nav li {
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
+}
+
+
+
+/* header content releted style */
+.header{
+    background-color: #FFF8F3;
+    border: 100%;
+    background-image:url('/images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position: right;
+}
+.baner{
+  display: flex;
+  
+    
+}
+
+.baner img{
+    height: 584px;
+}
+
+.profile-picture{
+    position: bottom left;
+    
+    
+}
+
+.header-title-into {    
+    color: #474747);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.header-title {
+    color: #181818);
+    font-size: 85px;    
+    font-weight: 700;
+}
+
+.btn-contact {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
+}
+
+.header-description{
+    color: #757575);
+font-size: 18px;
+font-weight: 400;
+
+
+}
+
+#contact-btn-space {
+
+    display: flex;
+    padding: 18px 23px 18px 58px;
 }
