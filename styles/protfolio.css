@@ -1,0 +1,57 @@
+/* common shere style */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.btn-praymari {
+    width: 150px;
+    height: 64px;    
+    border-radius: 5px;
+    background: #FD6E0A;
+    flex-shrink: 0;
+    border: none;   
+}
+
+
+.font-color-primari{
+    color: #FD6E0A;
+}
+
+
+
+
+/* nav releted style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+
+nav h3{
+    color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+
+
+nav ul{
+    list-style: none;
+}
+
+
+nav li{
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
